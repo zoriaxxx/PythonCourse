@@ -1,6 +1,6 @@
 from colorama import Fore, Back, Style, init
 
-# Ініціалізація бібліотеки Colorama для коректної роботи в терміналі
+# Ініціалізація бібліотеки Colorama
 init(autoreset=True)
 
 class Pet:
