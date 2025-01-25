@@ -90,7 +90,7 @@ class Owner:
 
 my_dog = Dog(name="Мілашка", age=3, breed="Мальтезе", weight=4)
 my_cat = Cat(name="Пушинка", age=2, color="Білий", weight=3)
-owner = Owner(name="Олександр", age=25)
+owner = Owner(name="Зоряна", age=11)
 
 owner.adopt_pet(my_dog)
 owner.adopt_pet(my_cat)

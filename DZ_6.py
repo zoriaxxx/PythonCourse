@@ -75,16 +75,22 @@ class Owner:
         print(Fore.LIGHTYELLOW_EX + f"{self.name} всиновив(-ла) {type(pet).__name__.lower()} на ім'я {pet.name}!")
 
     def feed_pet(self, pet, food):
-        if pet in self.pets:
-            pet.eat(food)
-        else:
-            print(Fore.RED + f"{pet.name} не є твариною {self.name}!")
+        try:
+            if pet in self.pets:
+                pet.eat(food)
+            else:
+                raise ValueError(f"{pet.name} не є твариною {self.name}!")
+        except Exception as e:
+            print(Fore.RED + f"Помилка: {e}")
 
     def play_with_pet(self, pet):
-        if pet in self.pets:
-            pet.play()
-        else:
-            print(Fore.RED + f"{pet.name} не є твариною {self.name}!")
+        try:
+            if pet in self.pets:
+                pet.play()
+            else:
+                raise ValueError(f"{pet.name} не є твариною {self.name}!")
+        except Exception as e:
+            print(Fore.RED + f"Помилка: {e}")
 
     def status(self):
         print(Style.BRIGHT + Fore.LIGHTCYAN_EX + f"\nІм'я власника: {self.name}\nВік: {self.age}")
@@ -94,27 +100,33 @@ class Owner:
 
 
 # Приклад використання
-my_dog = Dog(name="Мілашка", age=3, breed="Мальтезе", weight=4)
-my_cat = Cat(name="Пушинка", age=2, color="Білий", weight=3)
-owner = Owner(name="Зоряна", age=11)
+try:
+    my_dog = Dog(name="Мілашка", age=3, breed="Мальтезе", weight=4)
+    my_cat = Cat(name="Пушинка", age=2, color="Білий", weight=3)
+    owner = Owner(name="Зоряна", age=11)
 
-owner.adopt_pet(my_dog)
-owner.adopt_pet(my_cat)
+    owner.adopt_pet(my_dog)
+    owner.adopt_pet(my_cat)
 
-owner.status()
-my_dog.status()
-my_cat.status()
+    owner.status()
+    my_dog.status()
+    my_cat.status()
 
-owner.feed_pet(my_dog, "Вкусняшку")
-owner.feed_pet(my_cat, "Рибку")
+    owner.feed_pet(my_dog, "Вкусняшку")
+    owner.feed_pet(my_cat, "Рибку")
 
-owner.play_with_pet(my_dog)
-owner.play_with_pet(my_cat)
+    owner.play_with_pet(my_dog)
+    owner.play_with_pet(my_cat)
 
-my_dog.sleep()
-my_cat.sleep()
+    my_dog.sleep()
+    my_cat.sleep()
 
-my_dog.voice()
-my_cat.voice()
+    my_dog.voice()
+    my_cat.voice()
 
-owner.status()
+    owner.status()
+
+    # Викликаємо помилку для тестування
+    owner.feed_pet(Pet(name="Незнайомка", age=1, weight=5), "Щось")
+except Exception as e:
+    print(Fore.RED + f"Несподівана помилка: {e}")
