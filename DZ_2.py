@@ -12,25 +12,25 @@ class Dog:
         if self.hunger < 100:
             self.hunger -= 20
             self.energy += 10
-            print(f"{self.name} I ate, and now I am not hungry anymore!")
+            print(f"{self.name} зїла {food}, і тепер меньш голодна")
         else:
-            print(f"{self.name} I don't hungry")
+            print(f"{self.name} не голодна")
 
     def play(self):
         if self.energy > 20:
             self.energy -= 20
             self.happiness += 20
-            print(f"{self.name} I played, and now I am more happy!")
+            print(f"{self.name} поргалася, і зараз щасливіша!")
         else:
-            print(f"{self.name} I don't want to play")
+            print(f"{self.name} не можу грати, хоче відпочити")
 
     def sleep(self):
         self.energy = 100
         self.happiness += 20
-        print(f"{self.name} I slept, and now I don't want to sleep!")
+        print(f"{self.name} поспала!")
 
     def voice(self):
-        print(f"{self.name} woof woof")
+        print(f"{self.name} гав-гав")
 
     def status(self):
         print(f"\nІм'я: {self.name}\nВік: {self.age}\nПорода: {self.breed}\nВага: {self.weight}\n")
@@ -39,7 +39,7 @@ class Dog:
 
 my_dog = Dog(name="Мілашка", age=3, breed="Мальтезе")
 my_dog.status()
-my_dog.eat(food="вкусняшку")
+my_dog.eat(food="Вкусняшку")
 my_dog.play()
 my_dog.status()
 my_dog.sleep()
