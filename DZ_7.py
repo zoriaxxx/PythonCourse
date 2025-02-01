@@ -18,7 +18,7 @@ def error_handling_decorator(func):
 def calculate(expression):
     return eval(expression)
 
-# перевірка
+# Перевірка
 calculate("5 + 5")
 calculate("10 / 0")
 calculate("5 + ")

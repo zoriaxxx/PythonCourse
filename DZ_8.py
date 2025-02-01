@@ -120,7 +120,7 @@ class Owner:
             print(Fore.LIGHTBLUE_EX + f"- {pet.name} ({type(pet).__name__})")
 
 
-# Приклад використання
+# Перевірка
 try:
     my_dog = Dog(name="Мілашка", age=3, breed="Мальтезе", weight=4)
     my_cat = Cat(name="Пушинка", age=2, color="Білий", weight=3)
