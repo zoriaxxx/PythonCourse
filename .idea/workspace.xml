@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02f6c069-5890-4a60-8841-c912249264f6" name="Changes" comment="DZ_6">
-      <change afterPath="$PROJECT_DIR$/DZ_8.py" afterDir="false" />
+    <list default="true" id="02f6c069-5890-4a60-8841-c912249264f6" name="Changes" comment="DZ_10">
+      <change afterPath="$PROJECT_DIR$/DZ_9.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +48,7 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Python.DZ_1.executor": "Run",
+    "Python.DZ_10.executor": "Run",
     "Python.DZ_2.executor": "Run",
     "Python.DZ_3.executor": "Run",
     "Python.DZ_4.executor": "Run",
@@ -55,6 +56,7 @@
     "Python.DZ_6.executor": "Run",
     "Python.DZ_7.executor": "Run",
     "Python.DZ_8.executor": "Run",
+    "Python.DZ_9.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -142,7 +144,71 @@
       <option name="project" value="LOCAL" />
       <updated>1737833842985</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="DZ_8">
+      <option name="closed" value="true" />
+      <created>1737835596971</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1737835596971</updated>
+    </task>
+    <task id="LOCAL-00010" summary="DZ_8">
+      <option name="closed" value="true" />
+      <created>1737835602240</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1737835602240</updated>
+    </task>
+    <task id="LOCAL-00011" summary="DZ_8">
+      <option name="closed" value="true" />
+      <created>1737840927141</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1737840927141</updated>
+    </task>
+    <task id="LOCAL-00012" summary="DZ_8">
+      <option name="closed" value="true" />
+      <created>1737841111861</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1737841111861</updated>
+    </task>
+    <task id="LOCAL-00013" summary="DZ_8">
+      <option name="closed" value="true" />
+      <created>1737841164058</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1737841164058</updated>
+    </task>
+    <task id="LOCAL-00014" summary="DZ_8">
+      <option name="closed" value="true" />
+      <created>1737841733028</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1737841733028</updated>
+    </task>
+    <task id="LOCAL-00015" summary="DZ_8">
+      <option name="closed" value="true" />
+      <created>1737841894373</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1737841894373</updated>
+    </task>
+    <task id="LOCAL-00016" summary="DZ_10">
+      <option name="closed" value="true" />
+      <created>1738407523472</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1738407523472</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,6 +235,8 @@
     <MESSAGE value="DZ_4" />
     <MESSAGE value="DZ_5" />
     <MESSAGE value="DZ_6" />
-    <option name="LAST_COMMIT_MESSAGE" value="DZ_6" />
+    <MESSAGE value="DZ_8" />
+    <MESSAGE value="DZ_10" />
+    <option name="LAST_COMMIT_MESSAGE" value="DZ_10" />
   </component>
 </project>

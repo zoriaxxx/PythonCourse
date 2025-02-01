@@ -25,11 +25,11 @@ class WeatherScraper:
         conn.close()
 
     def fahrenheit_to_celsius(self, fahrenheit):
-        """Конвертує температуру з Фаренгейтів у Цельсії."""
+        # Перетворюємо температуру з Фаренгейтів у Цельсії
         return round((fahrenheit - 32) * 5.0 / 9.0, 2)
 
     def get_temperature(self):
-        """Здійснює парсинг сайту погоди та повертає температуру у Житомирі в Цельсіях."""
+        # Здійснюємо парсинг сайту погоди та повертає температуру у Житомирі в Цельсіях."""
         try:
             response = requests.get(self.weather_url, headers={"User-Agent": "Mozilla/5.0"})
             response.raise_for_status()
@@ -63,7 +63,7 @@ class WeatherScraper:
             return None
 
     def save_to_database(self, temperature):
-        """Зберігає температуру в базу даних."""
+        # Зберігаємо температуру в базу даних
         if temperature is not None:
             conn = sqlite3.connect(self.db_name)
             cursor = conn.cursor()
