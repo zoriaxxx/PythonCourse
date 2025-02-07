@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02f6c069-5890-4a60-8841-c912249264f6" name="Changes" comment="DZ_10">
-      <change afterPath="$PROJECT_DIR$/DZ_9.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Final.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet_simulation.log" beforeDir="false" afterPath="$PROJECT_DIR$/pet_simulation.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +58,7 @@
     "Python.DZ_7.executor": "Run",
     "Python.DZ_8.executor": "Run",
     "Python.DZ_9.executor": "Run",
+    "Python.Final.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -208,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738407523472</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="DZ_10">
+      <option name="closed" value="true" />
+      <created>1738411701787</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1738411701787</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
